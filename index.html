@@ -1,67 +1,153 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CAP Garland, LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Loyal Customs</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-      color: #333;
+      background-color: #f8f8f8;
     }
     header {
-      background-color: #003366;
-      color: white;
+      background: linear-gradient(to right, #0a3d0a, #145214);
       padding: 30px 20px;
       text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-size: 42px;
+      font-weight: 800;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+      letter-spacing: 1px;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #cceacc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
     }
     section {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
+      padding: 40px 20px;
+      margin: 20px;
+      border: 2px solid #007acc;
+      border-radius: 12px;
+      background-color: #145214;
+      color: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
     }
-    h1, h2 {
-      color: #003366;
+    section h2 {
+      color: #66ccff;
+      margin-bottom: 10px;
     }
-    .contact {
-      background: #fff;
-      padding: 20px;
-      border-left: 5px solid #003366;
-      margin-top: 30px;
+    .hero img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .map {
+      width: 100%;
+      height: 350px;
+      margin-top: 20px;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    ul {
+      text-align: left;
+      max-width: 600px;
+      margin: 20px auto;
+      color: white;
     }
     footer {
-      background-color: #003366;
+      background-color: #0a3d0a;
       color: white;
       text-align: center;
       padding: 15px;
-      margin-top: 50px;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>CAP Garland, LLC</h1>
-    <p>Private Investment Fund</p>
-  </header>
 
-  <section>
-    <h2>About Us</h2>
-    <p>CAP Garland, LLC is a Washington-based private investment fund focused on delivering value through diversified investment strategies.</p>
+<header>
+  <h1>Loyal Customs</h1>
+  <p>
+    📧 kennedy@loyalcustoms.shop
+    📞 225-536-9783
+  </p>
+</header>
 
-    <h2>Contact</h2>
-    <div class="contact">
-      <p><strong>Address:</strong> 915 W 2nd Ave, Spokane, WA 99201</p>
-      <p><strong>Email:</strong> <a href="mailto:ryanberg@capgarland.shop">ryanberg@capgarland.shop</a></p>
-      <p><strong>Phone:</strong> (509) 822-3850</p>
-    </div>
-  </section>
+<section class="hero">
+  <img src="https://pawfecthouse.com/cdn/shop/files/Thumb-1_199ab7ae-ae54-46ca-8a59-bd5b47e0a19d.jpg?v=1688114418" alt="Hero Banner" />
+</section>
 
-  <footer>
-    &copy; 2025 CAP Garland, LLC. All rights reserved.
-  </footer>
+<section>
+  <h2>Who We Are</h2>
+  <p>Loyal Customs LLC offers tailored design, logistics, and made-to-measure product solutions based in Sherman Oaks, California.</p>
+</section>
+
+<section>
+  <h2>Our Services</h2>
+  <p>We specialize in high-end custom creations and solutions:</p>
+  <ul>
+    <li>Custom furniture design</li>
+    <li>Made-to-measure product crafting</li>
+    <li>Branded customization</li>
+    <li>Packaging & Logistics</li>
+  </ul>
+  <div class="gallery">
+    <img src="https://www.ripaton.fr/4665-large_default/le-loyal-made-to-measure.jpg" alt="Made to Measure">
+    <img src="https://pawfecthouse.com/cdn/shop/files/Thumb-1_199ab7ae-ae54-46ca-8a59-bd5b47e0a19d.jpg?v=1688114418" alt="Custom Furniture">
+  </div>
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+  <p>Email: kennedy@loyalcustoms.shop</p>
+  <p>Phone: 225-536-9783</p>
+  <p>Address: 13525 HUSTON ST, SHERMAN OAKS, CA 91423, USA</p>
+</section>
+
+<section>
+  <h2>Find Us</h2>
+  <div class="map">
+    <iframe
+      src="https://www.google.com/maps?q=Sherman+Oaks,+CA&output=embed"
+      width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+  </div>
+</section>
+
+<section>
+  <h2>Coming Soon</h2>
+  <p>More premium services and exclusive designs are on the way. Stay tuned!</p>
+</section>
+
+<footer>
+  &copy; 2025 Loyal Customs LLC. All rights reserved.
+</footer>
+
 </body>
 </html>
